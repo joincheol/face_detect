@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page1,#page2 {
+    margin: 80px;
+    text-align: center;
+}
+#page1 {
+    position: relative;
+}
+video {
+    border: 1px solid;
+    z-index: 1;
+    position: relative;
+}
+#to_img {
+    position: relative;
+    z-index: 3;
+}
+
+#img_data {
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}

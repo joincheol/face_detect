@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="face-api.min.js"></script>
+
+    <script defer src="webcam.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="webcam.css">
+    <title>webcam</title>
+</head>
+<body>
+    <div id="page1">
+        <video id="video" width="720" height="560" autoplay muted></video><br>
+        <input id="to_img" type="button" name="img_save" value="얼굴 저장"><br>
+    </div>
+    <div id="page2">
+        <div class="date" id="img_data">
+        </div>
+    </div>
+</body>
+</html>
